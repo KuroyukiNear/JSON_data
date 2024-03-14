@@ -20,6 +20,16 @@
         </form>
     </div>
 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.0.0/crypto-js.js"></script>
+
+    <script src="https://crypto-js.googlecode.com/svn/tags/3.1.2/build/rollups/sha256.js"></script>
+
     <script src="script.js"></script>
+
+    <script>
+        window.onerror = function (msg, url, lineNo, columnNo, error) {
+            console.error("Error: " + msg, "URL: " + url, "Line: " + lineNo, "Column: " + columnNo, "Error object: " + JSON.stringify(error));
+        };
+    </script>
 </body>
 </html>
